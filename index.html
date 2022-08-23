@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>My Counter App</title>
+</head>
+</html>
+  <body>
+    <div class="main">
+      <div class="container">
+        <h1>Counter</h1>
+
+        <div class="counter-card">
+          <p id="counter">0</p>
+        </div>
+
+        <div class="btn-container">
+          <button id="increase">Increase</button>
+          <button id="reset">Reset</button>
+          <button id="decrease">Decrease</button>
+          <div>
+            <button id="addTo" href="#" onclick="popAdd()">
+              Add to Counter
+            </button>
+            <button id="deductFrom" href="#" onclick="popDeduct()">
+              Deduct from Counter
+            </button>
+          </div>
+        </div>
+        <div class="popUp">
+          <div class="popupText" >Add to Counter :
+            <input type="number" min="1" id="addBox" placeholder="Input Number to Add"/>
+            <button id="addBtn" onclick="addToCounter()">Add</button>
+          </div>
+        </div>
+
+        <div class="popUp">
+          <div class="popupText" id="myDeductPopup"
+            >Deduct from Counter : 
+            <input type="number"  id="deductBox" defaultValue="0" placeholder="Input Number to Deduct"/>
+            <button class="deductBtn" onclick="deductFromCounter()">Deduct</button>
+        </div>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

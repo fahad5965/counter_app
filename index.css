@@ -1,0 +1,52 @@
+body {
+    background-color: #256D85;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-size: 40px;
+}
+
+h1 {
+    text-decoration: underline;
+}
+
+.counter-card {
+    background-color: white;
+    width: 300px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+button {
+    padding: 13px 30px;
+    border-radius: 10px;
+    margin: 50px 30px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: lightgray;
+    transition: all 0.2s ease-in;
+}
+
+.dropdownMenu {
+    display: flex;
+    flex-grow: 1;
+}
+
+.btn-container {
+    display: flex;
+    flex-grow: 1;
+}
+
+
+

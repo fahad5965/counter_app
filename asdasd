@@ -1,0 +1,35 @@
+.popUp {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    height: 45px;
+}
+
+.popUp .popupText {
+    visibility: hidden;
+    display: flex;
+    width: auto;
+    background-color: #002B5B;
+    color: #fff;
+    font-size: 25px;
+    border-radius: 6px;
+    padding: 5px 8px;
+    /* justify-content: space-around; */
+
+}
+.popUp .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 2s;
+    animation: fadeIn 1s;
+    display: flex;
+}
+
+#addBox #deductBox{
+    display: flex;
+    flex-flow: row wrap;
+    height: 25px;
+    width: auto;
+    margin-left: 10px;
+    border-radius: 5px;
+
+}
